@@ -31,6 +31,13 @@
         from {opacity: 0;}
         to {opacity: 1;}
     }
+        html {
+    scroll-behavior: smooth;
+}
+        section:hover {
+    background: rgba(56, 189, 248, 0.05);
+    transition: 0.3s;
+}
 
        header {
     background: #1e293b;
@@ -99,7 +106,7 @@
     <p>Computer Science Student | Aspiring Developer</p>
 </header>
 
-<section>
+<section id="about">
     <h2>About Me</h2>
     <p>
         I am a Computer Science student with a strong interest in technology, innovation, and problem-solving.
@@ -124,7 +131,7 @@
     </div>
 </section>
 
-<section>
+<section id="skills">
     <h2>Skills</h2>
     <div class="skills">
         <span>Python</span>
@@ -134,7 +141,7 @@
     </div>
 </section>
 
-<section>
+<section id="contact">
     <h2>Contact</h2>
     <p>
         📧 Email: amruthasree91@email.com
@@ -151,4 +158,10 @@
 </footer>
 
 </body>
+    <nav style="background:#020617; padding:15px; text-align:center; position:sticky; top:0; z-index:1000;">
+    <a href="#about" style="margin:15px; font-weight:bold;">About</a>
+    <a href="#skills" style="margin:15px; font-weight:bold;">Skills</a>
+    <a href="#activities" style="margin:15px; font-weight:bold;">Activities</a>
+    <a href="#contact" style="margin:15px; font-weight:bold;">Contact</a>
+</nav>
 </html>
